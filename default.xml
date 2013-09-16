@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <default revision="refs/tags/android-4.3_r2.2"
+  <default revision="refs/tags/android-4.3_r3"
            remote="aosp"
            sync-j="4" />
 
