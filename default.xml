@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch=".." />
-  <default revision="refs/tags/android-6.0.0_r5"
+  <default revision="refs/tags/android-6.0.0_r11"
            remote="aosp"
            sync-j="4" />
 
@@ -27,6 +27,8 @@
   <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" />
   <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
+  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -45,6 +47,8 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
+  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
+  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
@@ -327,6 +331,7 @@
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
+  <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
