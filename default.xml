@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="marshmallow-dr-dev"
+  <default revision="marshmallow-mr1-dev"
            remote="aosp"
            sync-j="4" />
 
