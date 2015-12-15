@@ -2,7 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+  <remote  name="github"
+           fetch="https://github.com/"
+           revision="refs/heads/marshmallow2" />
   <default revision="refs/tags/android-6.0.1_r24"
            remote="aosp"
            sync-j="4" />
