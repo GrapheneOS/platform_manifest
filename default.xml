@@ -356,7 +356,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" name="copperheados/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
