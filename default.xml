@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="copperheados/platform_build" groups="pdk" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
