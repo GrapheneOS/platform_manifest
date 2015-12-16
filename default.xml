@@ -232,7 +232,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="copperheados/platform_external_sepolicy" groups="pdk" remote="github"/>
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
