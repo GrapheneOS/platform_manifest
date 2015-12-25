@@ -9,6 +9,7 @@
            revision="refs/heads/marshmallow2" />
   <default revision="refs/tags/android-6.0.1_r24"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="copperheados/platform_build" groups="pdk" remote="github" >
