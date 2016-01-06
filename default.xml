@@ -430,6 +430,7 @@
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
+  <project path="packages/apps/LegacyUpdater" name="platform_packages_apps_LegacyUpdater" remote="github" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform_packages_apps_Music" groups="pdk-fs" remote="github" />
