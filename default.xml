@@ -397,6 +397,7 @@
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/apps/Updater" name="copperheados/platform_packages_apps_Updater" remote="github" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="copperheados/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github"/>
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
