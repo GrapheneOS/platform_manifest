@@ -51,7 +51,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
+  <project path="device/huawei/angler" name="copperheados/device_huawei_angler" groups="device,angler,broadcom_pdk" remote="github" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
