@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<include name="default.xml" />
+
+<!-- Sony device repos, copied from http://developer.sonymobile.com/knowledge-base/open-source/open-devices/aosp-build-instructions/ -->
+<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
+<remove-project name="platform/hardware/qcom/camera" />
+<project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="sony" revision="master" />
+<project path="device/sony/amami" name="device-sony-amami" groups="device" remote="sony" revision="master" />
+<project path="device/sony/aries" name="device-sony-aries" groups="device" remote="sony" revision="master" />
+<project path="device/sony/castor" name="device-sony-castor" groups="device" remote="sony" revision="master" />
+<project path="device/sony/castor_windy" name="device-sony-castor_windy" groups="device" remote="sony" revision="master" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="master" />
+<project path="device/sony/eagle" name="device-sony-eagle" groups="device" remote="sony" revision="master" />
+<project path="device/sony/flamingo" name="device-sony-flamingo" groups="device" remote="sony" revision="master" />
+<project path="device/sony/honami" name="device-sony-honami" groups="device" remote="sony" revision="master" />
+<project path="device/sony/kanuti" name="device-sony-kanuti" groups="device" remote="sony" revision="master" />
+<project path="device/sony/ivy" name="device-sony-ivy" groups="device" remote="sony" revision="master" />
+<project path="device/sony/karin" name="device-sony-karin" groups="device" remote="sony" revision="master" />
+<project path="device/sony/karin_windy" name="device-sony-karin_windy" groups="device" remote="sony" revision="master" />
+<project path="device/sony/kitakami" name="device-sony-kitakami" groups="device" remote="sony" revision="master" />
+<project path="device/sony/leo" name="device-sony-leo" groups="device" remote="sony" revision="master" />
+<project path="device/sony/rhine" name="device-sony-rhine" groups="device" remote="sony" revision="master" />
+<project path="device/sony/satsuki" name="device-sony-satsuki" groups="device" remote="sony" revision="master" />
+<project path="device/sony/scorpion" name="device-sony-scorpion" groups="device" remote="sony" revision="master" />
+<project path="device/sony/scorpion_windy" name="device-sony-scorpion_windy" groups="device" remote="sony" revision="master" />
+<project path="device/sony/seagull" name="device-sony-seagull" groups="device" remote="sony" revision="master" />
+<project path="device/sony/shinano" name="device-sony-shinano" groups="device" remote="sony" revision="master" />
+<project path="device/sony/sirius" name="device-sony-sirius" groups="device" remote="sony" revision="master" />
+<project path="device/sony/sumire" name="device-sony-sumire" groups="device" remote="sony" revision="master" />
+<project path="device/sony/suzuran" name="device-sony-suzuran" groups="device" remote="sony" revision="master" />
+<project path="device/sony/tianchi" name="device-sony-tianchi" groups="device" remote="sony" revision="master" />
+<project path="device/sony/togari" name="device-sony-togari" groups="device" remote="sony" revision="master" />
+<project path="device/sony/tulip" name="device-sony-tulip" groups="device" remote="sony" revision="master" />
+<project path="device/sony/yukon" name="device-sony-yukon" groups="device" remote="sony" revision="master" />
+<project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/LA.BF64.1.2.2_rb4.7" />
+<project path="kernel/sony/msm" name="kernel" groups="device" remote="sony" revision="aosp/LA.BF64.1.2.2_rb4.7" />
+<project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony-oss/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony-oss/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony-oss/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+<project path="vendor/sony-oss/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+</manifest>
