@@ -26,7 +26,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform_art" groups="pdk" remote="github" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="github" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="github" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
