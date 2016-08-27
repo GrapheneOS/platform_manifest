@@ -98,6 +98,7 @@
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk" />
+  <project path="external/chromium" name="platform_external_chromium" remote="bitbucket" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
@@ -410,7 +411,6 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
