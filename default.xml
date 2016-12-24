@@ -250,7 +250,7 @@
   <project path="external/mp4parser" name="platform/external/mp4parser" groups="pdk" />
   <project path="external/mtpd" name="platform/external/mtpd" groups="pdk" />
   <project path="external/nanohttpd" name="platform/external/nanohttpd" groups="pdk" />
-  <project path="external/nanopb-c" name="platform/external/nanopb-c" groups="pdk" />
+  <project path="external/nanopb-c" name="platform_external_nanopb-c" groups="pdk" remote="github" />
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk" />
   <project path="external/netcat" name="platform/external/netcat" groups="pdk" />
   <project path="external/netperf" name="platform/external/netperf" groups="pdk" />
