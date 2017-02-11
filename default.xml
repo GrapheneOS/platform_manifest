@@ -267,6 +267,7 @@
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
+  <project path="external/privacy-friendly-netmonitor" name="platform_external_privacy-friendly-netmonitor" remote="github" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk" />
