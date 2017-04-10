@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="nougat-mr2-release"
+  <default revision="refs/tags/android-7.1.2_r6"
            remote="aosp"
            sync-j="4" />
 
