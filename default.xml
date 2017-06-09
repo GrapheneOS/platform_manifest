@@ -549,6 +549,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
+  <project path="script" name="script" remote="github" />
   <project path="vendor" name="vendor" remote="github" />
 
 </manifest>
