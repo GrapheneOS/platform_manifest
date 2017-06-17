@@ -10,6 +10,8 @@
   <remote  name="github"
            fetch="https://github.com/copperheados/"
            revision="refs/heads/nougat-mr2-release" />
+  <remote  name="gh"
+           feth="https://github.com/" />
   <default revision="refs/tags/android-7.1.2_r13"
            remote="aosp"
            sync-j="4" />
