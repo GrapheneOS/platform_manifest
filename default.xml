@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="pie-dev"
+  <default revision="pie-release"
            remote="aosp"
            sync-j="4" />
 
