@@ -67,7 +67,7 @@
   <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device" clone-depth="1" />
   <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin,pdk" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin,pdk" clone-depth="1" />
-  <project path="device/google/muskie" name="device/google/muskie" groups="device,muskie,pdk" />
+  <project path="device/google/muskie" name="device_google_muskie" groups="device,muskie,pdk" remote="github" />
   <project path="device/google/taimen" name="device/google/taimen" groups="device,taimen,pdk" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo,pdk" />
