@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+  <remote  name="grapheneos"
+           fetch="https://github.com/GrapheneOS/"
+           revision="refs/heads/12-raviole" />
   <default revision="refs/tags/android-12.0.0_r29"
            remote="aosp"
            sync-j="4" />
