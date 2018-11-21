@@ -696,6 +696,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="prebuilts/vndk/v27" name="platform/prebuilts/vndk/v27" groups="pdk" clone-depth="1" />
   <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" />
+  <project path="script" name="script" remote="github" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs">
     <linkfile src="current/androidx-README.md" dest="frameworks/support/README.md" />
   </project>
