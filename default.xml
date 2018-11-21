@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+  <remote  name="github"
+           fetch="https://github.com/GrapheneOS/"
+           revision="refs/heads/pie" />
   <default revision="refs/tags/android-9.0.0_r46"
            remote="aosp"
            sync-j="4" />
