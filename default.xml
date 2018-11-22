@@ -75,7 +75,7 @@
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
   <project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
   <project path="device/google/muskie" name="device_google_muskie" groups="device,generic_fs,muskie" remote="github" />
-  <project path="device/google/taimen" name="device/google/taimen" groups="device,taimen" />
+  <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="github" />
   <project path="device/google/trout" name="device/google/trout" groups="device,trout,gull" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
   <project path="device/google/wahoo" name="device_google_wahoo" groups="device,generic_fs,wahoo" remote="github" />
