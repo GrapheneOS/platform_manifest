@@ -14,7 +14,7 @@
   <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r29"/>
   <contactinfo bugurl="go/repo-bug" />
 
-  <project path="build/make" name="platform/build" groups="pdk,sysui-studio" >
+  <project path="build/make" name="platform_build" groups="pdk,sysui-studio" remote="grapheneos" >
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
     <linkfile dest="build/core" src="core" />
