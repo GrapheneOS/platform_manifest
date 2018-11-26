@@ -1083,6 +1083,7 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="grapheneos" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
