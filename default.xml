@@ -714,6 +714,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+  <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="github" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
