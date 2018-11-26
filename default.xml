@@ -820,6 +820,7 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="github" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
