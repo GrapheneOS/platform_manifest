@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-9.0.0_r22"
+  <default revision="refs/tags/android-9.0.0_r30"
            remote="aosp"
            sync-j="4" />
 
@@ -282,7 +282,6 @@
   <project path="external/oj-libjdwp" name="platform/external/oj-libjdwp" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
   <project path="external/one-true-awk" name="platform/external/one-true-awk" groups="pdk" />
-  <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
