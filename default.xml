@@ -34,7 +34,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" />
+  <project path="art" name="platform_art" groups="pdk" remote="grapheneos" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="grapheneos" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="grapheneos" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" />
