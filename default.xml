@@ -547,7 +547,7 @@
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="github" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="github" />
-  <project path="libcore" name="platform/libcore" groups="pdk" />
+  <project path="libcore" name="platform_libcore" groups="pdk" remote="github" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
