@@ -71,7 +71,7 @@
   <project path="device/google/muskie" name="device_google_muskie" groups="device,muskie,pdk" remote="github" />
   <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen,pdk" remote="github" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
-  <project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo,pdk" />
+  <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo,pdk" remote="github" />
   <project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo,pdk" clone-depth="1" />
   <project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
   <project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
