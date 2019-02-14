@@ -26,7 +26,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" />
+  <project path="art" name="platform_art" groups="pdk" remote="github" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="github" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="github" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
