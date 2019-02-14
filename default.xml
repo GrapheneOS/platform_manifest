@@ -565,7 +565,7 @@
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="grapheneos" />
   <project path="kernel/google/sunfish" name="kernel_google_sunfish" remote="grapheneos" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="grapheneos" />
-  <project path="libcore" name="platform/libcore" groups="pdk" />
+  <project path="libcore" name="platform_libcore" groups="pdk" remote="grapheneos" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
