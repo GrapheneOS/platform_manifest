@@ -65,7 +65,7 @@
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral" />
   <project path="device/google/crosshatch" name="device_google_crosshatch" groups="device,crosshatch,generic_fs" remote="github" />
   <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" />
-  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
+  <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="github" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_common" name="device/google/cuttlefish_common" groups="device,pdk" />
   <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device,pdk" clone-depth="1" />
