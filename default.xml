@@ -62,7 +62,7 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/crosshatch" name="device_google_crosshatch" groups="device,crosshatch" remote="github" />
   <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch" clone-depth="1" />
-  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch" />
+  <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="device,crosshatch" remote="github" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device" />
   <project path="device/google/cuttlefish_common" name="device/google/cuttlefish_common" groups="device" />
   <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device" clone-depth="1" />
