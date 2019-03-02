@@ -77,7 +77,7 @@
   <project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
   <project path="device/google/crosshatch" name="device_google_crosshatch" groups="device,crosshatch,generic_fs" remote="grapheneos" />
   <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" />
-  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
+  <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="grapheneos" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device,pdk" clone-depth="1" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
