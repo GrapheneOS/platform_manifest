@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/AndroidHardening/"
-           revision="refs/heads/pie" />
+           revision="refs/tags/PQ2A.190305.002.2019.03.05.03" />
   <default revision="refs/tags/android-9.0.0_r34"
            remote="aosp"
            sync-j="4" />
