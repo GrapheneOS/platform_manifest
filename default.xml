@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/GrapheneOS/"
-           revision="refs/heads/pie" />
+           revision="refs/tags/PQ2A.190405.003.2019.04.01.19" />
   <default revision="refs/tags/android-9.0.0_r35"
            remote="aosp"
            sync-j="4" />
