@@ -502,7 +502,7 @@
   <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="qcom_sdm845" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
+  <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="github" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="github" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="github" />
   <project path="kernel/tests" name="kernel/tests" />
