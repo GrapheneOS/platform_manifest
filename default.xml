@@ -558,7 +558,7 @@
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
   <project path="kernel/build" name="kernel/build" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
+  <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="grapheneos" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
