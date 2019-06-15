@@ -517,6 +517,7 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="github" />
+  <project path="kernel/google/bonito" name="kernel_google_bonito" remote="github" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="github" />
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="github" />
