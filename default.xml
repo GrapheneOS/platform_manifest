@@ -532,6 +532,7 @@
   <project path="kernel/build" name="kernel/build" />
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="github" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
+  <project path="kernel/google/bonito" name="kernel_google_bonito" remote="github" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="github" />
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="github" />
