@@ -314,6 +314,7 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
+  <project path="external/PdfViewer" name="platform_external_PdfViewer" remote="github" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
   <project path="external/perf_data_converter" name="platform/external/perf_data_converter" groups="pdk" />
   <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" />
