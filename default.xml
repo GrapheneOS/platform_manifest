@@ -73,7 +73,7 @@
   <project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
   <project path="device/google/blueline-kernel" name="device_google_blueline-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" remote="grapheneos" />
   <project path="device/google/bonito" name="device_google_bonito" groups="device,bonito" remote="grapheneos" />
-  <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
+  <project path="device/google/bonito-kernel" name="device_google_bonito-kernel" groups="device,bonito" clone-depth="1" remote="grapheneos" />
   <project path="device/google/bonito-sepolicy" name="device_google_bonito-sepolicy" groups="device,bonito" remote="grapheneos" />
   <project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
