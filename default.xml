@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/GrapheneOS/"
-           revision="refs/heads/10" />
+           revision="refs/tags/QP1A.191005.007.2019.10.07.21" />
   <default revision="refs/tags/android-10.0.0_r5"
            remote="aosp"
            sync-j="4" />
