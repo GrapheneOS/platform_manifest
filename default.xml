@@ -562,6 +562,7 @@
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="grapheneos" />
+  <project path="kernel/google/sunfish" name="kernel_google_sunfish" remote="grapheneos" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="grapheneos" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
