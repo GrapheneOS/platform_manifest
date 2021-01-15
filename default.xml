@@ -815,6 +815,7 @@
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="grapheneos" />
+  <project path="kernel/google/redbull" name="kernel_google_redbull" remote="grapheneos" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="grapheneos" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
