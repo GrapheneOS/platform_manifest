@@ -94,7 +94,7 @@
   <project path="device/google/pantah-kernel" name="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" />
   <project path="device/google/raviole" name="device/google/raviole" groups="device,slider,pdk-gs-arm" />
   <project path="device/google/raviole-kernel" name="device/google/raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" />
-  <project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
+  <project path="device/google/redbull" name="device_google_redbull" groups="device,redbull" remote="grapheneos" />
   <project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
   <project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
   <project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" />
