@@ -73,6 +73,7 @@
   <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" />
   <project path="device/google/bluejay-kernel" name="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" />
   <project path="device/google/bramble" name="device_google_bramble" groups="device,bramble" remote="grapheneos" />
+  <project path="device/google/bramble-kernel" name="device_google_bramble-kernel" groups="device,bramble" clone-depth="1" remote="grapheneos" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/coral" name="device_google_coral" groups="device,coral,generic_fs" remote="grapheneos" />
