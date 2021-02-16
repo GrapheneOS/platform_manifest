@@ -790,6 +790,7 @@
   <project path="hardware/st/secure_element2" name="platform/hardware/st/secure_element2" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="grapheneos" />
+  <project path="kernel/prebuilts/build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="a5fcf02304b51f43d2c8bfd587e26755e3ce2701" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/prebuilts/5.4/arm64" name="kernel/prebuilts/5.4/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/prebuilts/5.4/x86_64" name="kernel/prebuilts/5.4/x86-64" groups="pdk" clone-depth="1" />
