@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="android11-qpr1-release"
+  <default revision="android11-qpr2-release"
            remote="aosp"
            sync-j="4" />
 
@@ -57,16 +57,15 @@
   <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
   <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
   <project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
-  <project path="device/google/bramble-kernel" name="device/google/bramble-kernel" groups="device,bramble" clone-depth="1" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
   <project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
   <project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
+  <project path="device/google/redbull-kernel" name="device/google/redbull-kernel" groups="device,redbull" clone-depth="1" />
   <project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
   <project path="device/google/redfin" name="device/google/redfin" groups="device,redfin" />
-  <project path="device/google/redfin-kernel" name="device/google/redfin-kernel" groups="device,redfin" clone-depth="1" />
   <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
   <project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
   <project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
