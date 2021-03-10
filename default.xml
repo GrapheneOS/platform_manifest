@@ -875,6 +875,7 @@
   <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" groups="pdk" clone-depth="1" />
   <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" />
+  <project path="external/talkback" name="platform_external_talkback" remote="grapheneos" clone-depth="1" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" />
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" />
   <project path="external/TestParameterInjector" name="platform/external/TestParameterInjector" groups="pdk" />
