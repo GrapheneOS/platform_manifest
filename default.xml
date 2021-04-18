@@ -401,7 +401,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/scudo" name="platform/external/scudo" groups="pdk" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
-  <project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="e38f958f9c1fade27fcb31f2e9b273450978f70a" />
+  <project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="28f944731788b09f9ae0590bf3c9b97cb8d6bf76" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/setupcompat" name="platform/external/setupcompat" groups="pdk" />
   <project path="external/setupdesign" name="platform/external/setupdesign" groups="pdk" />
