@@ -580,7 +580,29 @@
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="grapheneos" />
-  <project path="kernel/google/redbull" name="kernel_google_redbull" remote="grapheneos" />
+  <project path="kernel/google/redbull/build" name="kernel/build" revision="2fea4c26047a76447c88ec4625d2c7e247a6b9fe" />
+  <project path="kernel/google/redbull/private/msm-google" name="GrapheneOS/kernel_google_redbull" revision="11" remote="grapheneos" />
+  <project path="kernel/google/redbull/private/msm-google/arch/arm64/boot/dts/vendor" name="kernel/msm-extra/devicetree" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/camera" name="kernel/msm-extra/camera-devicetree" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/display" name="kernel/msm-extra/display-devicetree" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google/techpack/audio" name="kernel_google_redbull_techpack_audio" revision="11" remote="grapheneos" />
+  <project path="kernel/google/redbull/private/msm-google/techpack/camera" name="kernel/msm-extra/camera-kernel" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google/techpack/dataipa" name="kernel/msm-extra/dataipa" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google/techpack/display" name="kernel/msm-extra/display-drivers" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google/techpack/video" name="kernel/msm-extra/video-driver" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel_google_redbull_drivers_staging_qca-wfi-host-cmn" revision="11" remote="grapheneos" />
+  <project path="kernel/google/redbull/private/msm-google-modules/wlan/qcacld-3.0" name="kernel_google_redbull_drivers_staging_qcacld-3.0" revision="11" remote="grapheneos" />
+  <project path="kernel/google/redbull/private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/private/msm-google-modules/touch/sec" name="kernel/msm-modules/sec_touch" revision="android-11.0.0_r0.86" />
+  <project path="kernel/google/redbull/prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="f71cc7fa68ac644595257d6fdebc2e543cb7041c" clone-depth="1" />
+  <project path="kernel/google/redbull/prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" revision="592150fc8ae9f48f2e73f390961f32ca6f5f6a9f" />
+  <project path="kernel/google/redbull/prebuilts-master/misc" name="platform/prebuilts/misc" revision="pie-release" clone-depth="1" />
+  <project path="kernel/google/redbull/tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="5cc6456425d98d8fce685dcb13d3ad8baffccccf" />
+  <project path="kernel/google/redbull/prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" revision="master" />
+  <project path="kernel/google/redbull/prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="30e9620566d78af29dbc22a9ef48a2bc56d42773" />
+  <project path="kernel/google/redbull/prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="96755e2ffffe500011eecd81b63eeaf2d484338e" />
   <project path="kernel/google/sunfish" name="kernel_google_sunfish" remote="grapheneos" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="grapheneos" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
