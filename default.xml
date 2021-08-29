@@ -6,10 +6,10 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="grapheneos"
            fetch="https://github.com/GrapheneOS/"
-           revision="refs/heads/11" />
+           revision="refs/heads/11-barbet" />
   <remote  name="grapheneos-gitlab"
            fetch="https://gitlab.com/GrapheneOS/"
-           revision="refs/heads/11" />
+           revision="refs/heads/11-barbet" />
   <remote  name="seedvault-app"
            fetch="https://github.com/seedvault-app/" />
   <default revision="refs/tags/android-11.0.0_r45"
