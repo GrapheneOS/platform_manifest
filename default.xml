@@ -584,6 +584,7 @@
   <project path="kernel/prebuilts/build-tools" name="kernel_prebuilts_build-tools" clone-depth="1" remote="grapheneos" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
+  <project path="kernel/google/barbet" name="kernel_google_barbet" remote="grapheneos" />
   <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="grapheneos" />
   <project path="kernel/google/redbull" name="kernel_google_redbull" remote="grapheneos" />
