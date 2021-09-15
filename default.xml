@@ -12,6 +12,9 @@
            revision="refs/heads/11" />
   <remote  name="seedvault-app"
            fetch="https://github.com/seedvault-app/" />
+  <remote  name="lineageos"
+           fetch="https://github.com/GrapheneOS-Improvements/"
+           revision="refs/heads/lineage-18.1" />
   <default revision="refs/tags/android-11.0.0_r43"
            remote="aosp"
            sync-j="4" />
@@ -611,19 +614,19 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="grapheneos" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="grapheneos" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="lineageos" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="lineageos" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="grapheneos" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="lineageos" />
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
-  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="grapheneos" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="grapheneos" />
+  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="lineageos" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="lineageos" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="grapheneos" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="lineageos" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="grapheneos" />
