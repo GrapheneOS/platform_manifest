@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="android12-dev"
+  <default revision="android12-release"
            remote="aosp"
            sync-j="4" />
 
