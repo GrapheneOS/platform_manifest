@@ -171,6 +171,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" />
+  <project path="external/Camera" name="platform_external_Camera" remote="grapheneos" clone-depth="1" />
   <project path="external/capstone" name="platform/external/capstone" groups="pdk" />
   <project path="external/catch2" name="platform/external/catch2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
