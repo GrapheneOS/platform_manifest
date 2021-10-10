@@ -1169,7 +1169,7 @@
   <project path="packages/modules/UprobeStats" name="platform/packages/modules/UprobeStats" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="grapheneos" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
