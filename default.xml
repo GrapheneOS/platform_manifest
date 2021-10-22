@@ -1095,7 +1095,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio" remote="grapheneos" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="external/android_onboarding" name="platform/external/android_onboarding" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="grapheneos" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="grapheneos" />
