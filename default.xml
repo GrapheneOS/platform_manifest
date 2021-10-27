@@ -978,7 +978,7 @@
   <project path="hardware/google/graphics/zuma" name="platform/hardware/google/graphics/zuma" groups="ripcurrent" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
-  <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" />
+  <project path="hardware/google/pixel-sepolicy" name="platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="grapheneos" />
   <project path="hardware/google/trusty" name="platform/hardware/google/trusty" groups="pdk" />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
