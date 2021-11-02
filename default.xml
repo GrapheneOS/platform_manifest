@@ -21,7 +21,7 @@
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r22" />
   <contactinfo bugurl="go/repo-bug" />
 
-  <project path="build/make" name="platform_build" groups="pdk" remote="grapheneos" >
+  <project path="build/make" name="platform_build" groups="pdk" remote="grapheneos" revision="refs/heads/12.1-crosshatch" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -81,6 +81,10 @@
   <project path="device/google/bluejay" name="device_google_bluejay" groups="device,bluejay" remote="grapheneos" />
   <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" remote="aosp-bluejay" />
   <project path="device/google/bluejay-kernel" name="device_google_bluejay-kernel" groups="device,bluejay" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/blueline-kernel" name="device_google_blueline-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/bonito" name="device_google_bonito" groups="device,bonito" remote="grapheneos" />
+  <project path="device/google/bonito-kernel" name="device_google_bonito-kernel" groups="device,bonito" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/bonito-sepolicy" name="device_google_bonito-sepolicy" groups="device,bonito" remote="grapheneos" />
   <project path="device/google/bramble" name="device_google_bramble" groups="device,bramble" remote="grapheneos" />
   <project path="device/google/bramble-kernel" name="device_google_bramble-kernel" groups="device,bramble" clone-depth="1" remote="grapheneos" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
@@ -101,6 +105,9 @@
   <project path="device/google/sunfish" name="device_google_sunfish" groups="device,sunfish" remote="grapheneos" />
   <project path="device/google/sunfish-kernel" name="device_google_sunfish-kernel" groups="device,sunfish" clone-depth="1" remote="grapheneos" />
   <project path="device/google/sunfish-sepolicy" name="device_google_sunfish-sepolicy" groups="device,sunfish" remote="grapheneos" />
+  <project path="device/google/crosshatch" name="device_google_crosshatch" groups="device,crosshatch,generic_fs" remote="grapheneos" />
+  <project path="device/google/crosshatch-kernel" name="device_google_crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="grapheneos" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
@@ -248,7 +255,7 @@
   <project path="external/guice" name="platform/external/guice" groups="pdk" />
   <project path="external/gwp_asan" name="platform/external/gwp_asan" groups="pdk" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" />
-  <project path="external/hardened_malloc" name="hardened_malloc" remote="grapheneos" />
+  <project path="external/hardened_malloc" name="hardened_malloc" remote="grapheneos" revision="refs/heads/12.1-crosshatch" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" />
   <project path="external/icing" name="platform/external/icing" groups="pdk" />
@@ -821,6 +828,7 @@
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
   <project path="kernel/google/barbet" name="kernel_google_barbet" remote="grapheneos" />
   <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
+  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="grapheneos" />
   <project path="kernel/google/redbull" name="kernel_google_redbull" remote="grapheneos" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="grapheneos" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -1008,7 +1016,7 @@
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" />
   <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1" />
   <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" groups="pdk" clone-depth="1" />
-  <project path="script" name="script" remote="grapheneos" />
+  <project path="script" name="script" remote="grapheneos" revision="refs/heads/12.1-crosshatch" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="grapheneos" />
@@ -1115,6 +1123,7 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <project path="vendor/adevtool" name="adevtool" remote="grapheneos" />
+  <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="grapheneos" />
   <project path="vendor/carriersettings-extractor" name="carriersettings-extractor" remote="grapheneos" />
   <project path="vendor/state" name="vendor_state" remote="grapheneos" />
 
