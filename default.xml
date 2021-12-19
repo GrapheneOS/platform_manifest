@@ -87,7 +87,7 @@
   <project path="device/google/gs101-sepolicy" name="device_google_gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/gs-common" name="device/google/gs-common" groups="device,slider,bluejay,pdk-gs-arm" />
   <project path="device/google/raviole" name="device_google_raviole" groups="device,slider,pdk-gs-arm" remote="grapheneos" />
-  <project path="device/google/raviole-kernel" name="device/google/raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" />
+  <project path="device/google/raviole-kernel" name="device_google_raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" remote="grapheneos" />
   <project path="device/google/redbull" name="device_google_redbull" groups="device,redbull" remote="grapheneos" />
   <project path="device/google/redbull-sepolicy" name="device_google_redbull-sepolicy" groups="device,redbull" remote="grapheneos" />
   <project path="device/google/redfin" name="device_google_redfin" groups="device,redfin" remote="grapheneos" />
