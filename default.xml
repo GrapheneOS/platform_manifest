@@ -141,6 +141,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
   <project path="external/apache-velocity-engine" name="platform/external/apache-velocity-engine" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
+  <project path="external/Apps" name="platform_external_Apps" remote="grapheneos" clone-depth="1" />
   <project path="external/arm-neon-tests" name="platform/external/arm-neon-tests" groups="vendor" />
   <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" groups="pdk" />
