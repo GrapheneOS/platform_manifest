@@ -1373,4 +1373,5 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <project path="vendor/adevtool" name="adevtool" remote="grapheneos" />
+  <project path="vendor/state" name="vendor_state" remote="grapheneos" clone-depth="1" />
 </manifest>
