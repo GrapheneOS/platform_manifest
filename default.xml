@@ -1086,7 +1086,7 @@
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="grapheneos" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="grapheneos" />
-  <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="grapheneos" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="grapheneos" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="grapheneos" />
