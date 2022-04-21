@@ -1041,7 +1041,7 @@
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="grapheneos" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/security" name="platform_system_security" groups="pdk" remote="grapheneos" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="grapheneos" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" />
