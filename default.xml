@@ -70,9 +70,6 @@
   <project path="device/google/barbet" name="device/google/barbet" groups="device,barbet" />
   <project path="device/google/barbet-kernel" name="device/google/barbet-kernel" groups="device,barbet" clone-depth="1" />
   <project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
-  <project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" />
-  <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
-  <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
   <project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
@@ -92,9 +89,6 @@
   <project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
   <project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
   <project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
-  <project path="device/google/crosshatch" name="device/google/crosshatch" groups="device,crosshatch,generic_fs" />
-  <project path="device/google/crosshatch-kernel" name="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" clone-depth="1" />
-  <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
