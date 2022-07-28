@@ -69,7 +69,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/barbet" name="device_google_barbet" groups="device,barbet" remote="grapheneos" />
   <project path="device/google/barbet-sepolicy" name="device/google/barbet-sepolicy" groups="device,barbet" />
-  <project path="device/google/bluejay" name="device/google/bluejay" groups="device,bluejay" />
+  <project path="device/google/bluejay" name="device_google_bluejay" groups="device,bluejay" remote="grapheneos" />
   <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" />
   <project path="device/google/bluejay-kernel" name="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" />
   <project path="device/google/bramble" name="device_google_bramble" groups="device,bramble" remote="grapheneos" />
