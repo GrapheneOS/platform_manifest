@@ -886,8 +886,16 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" />
-  <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" />
+  <project path="kernel/google/coral" name="kernel_google_coral" remote="grapheneos" >
+    <linkfile src="Android.bp" dest="kernel/prebuilts/legacy/Android.bp" />
+  </project>
   <project path="kernel/google/redbull" name="kernel_google_redbull" remote="grapheneos" />
+  <!-- legacy kernel build deps -->
+  <project path="kernel/prebuilts/legacy/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" revision="refs/tags/android-13.0.0_r0.3" clone-depth="1" />
+  <project path="kernel/prebuilts/legacy/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="refs/tags/android-13.0.0_r0.3" clone-depth="1" groups="pdk" />
+  <project path="kernel/prebuilts/legacy/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="refs/tags/android-13.0.0_r0.3" clone-depth="1" groups="pdk" />
+  <project path="kernel/prebuilts/legacy/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="refs/tags/android-13.0.0_r0.3" groups="pdk" clone-depth="1" />
+  <project path="kernel/prebuilts/legacy/misc" name="platform/prebuilts/misc" revision="refs/tags/android-13.0.0_r0.3" groups="pdk" clone-depth="1" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="grapheneos" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
