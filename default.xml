@@ -1182,7 +1182,7 @@
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
-  <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" />
+  <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" revision="7e21d2d5b9ac42ded7d7e9a92492baf930774d8b" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" />
