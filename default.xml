@@ -9,7 +9,7 @@
            revision="refs/heads/13" />
   <remote  name="grapheneos-gitlab"
            fetch="https://gitlab.com/GrapheneOS/"
-           revision="refs/heads/12.1" />
+           revision="refs/heads/13" />
   <default revision="refs/tags/android-13.0.0_r3"
            remote="aosp"
            sync-j="4" />
