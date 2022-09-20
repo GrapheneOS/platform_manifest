@@ -243,6 +243,7 @@
   <project path="external/gflags" name="platform/external/gflags" groups="pdk" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" groups="pdk" />
+  <project path="external/GmsCompatConfig" name="platform_external_GmsCompatConfig" groups="pdk-fs" remote="grapheneos" clone-depth="1" />
   <project path="external/go-cmp" name="platform/external/go-cmp" groups="pdk" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" groups="pdk" />
   <project path="external/google-benchmark" name="platform/external/google-benchmark" groups="pdk" />
