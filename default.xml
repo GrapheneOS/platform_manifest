@@ -91,7 +91,7 @@
   <project path="device/google/lynx-kernel" name="device/google/lynx-kernel" groups="device,lynx" clone-depth="1" />
   <project path="device/google/pantah" name="device_google_pantah" groups="device,cloudripper" remote="grapheneos" />
   <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper" />
-  <project path="device/google/pantah-kernel" name="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" />
+  <project path="device/google/pantah-kernel" name="device_google_pantah-kernel" groups="device,cloudripper" clone-depth="1" remote="grapheneos" />
   <project path="device/google/raviole" name="device_google_raviole" groups="device,slider,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/raviole-kernel" name="device_google_raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" remote="grapheneos" />
   <project path="device/google/redbull" name="device_google_redbull" groups="device,redbull" remote="grapheneos" />
