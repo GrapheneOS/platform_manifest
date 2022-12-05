@@ -4,13 +4,13 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="android13-release"
+  <default revision="android13-qpr1-release"
            remote="aosp"
            sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
-
+  <!-- BEGIN open-source projects -->
   <project path="build/make" name="platform/build" groups="pdk" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -76,7 +76,12 @@
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
   <project path="device/google/gs101" name="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" />
   <project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" />
+  <project path="device/google/gs201" name="device/google/gs201" groups="device,cloudripper" />
+  <project path="device/google/gs201-sepolicy" name="device/google/gs201-sepolicy" groups="device,cloudripper" />
   <project path="device/google/gs-common" name="device/google/gs-common" groups="device,slider,bluejay,pdk-gs-arm" />
+  <project path="device/google/pantah" name="device/google/pantah" groups="device,cloudripper" />
+  <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper" />
+  <project path="device/google/pantah-kernel" name="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" />
   <project path="device/google/raviole" name="device/google/raviole" groups="device,slider,pdk-gs-arm" />
   <project path="device/google/raviole-kernel" name="device/google/raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" />
   <project path="device/google/redbull" name="device/google/redbull" groups="device,redbull" />
@@ -278,6 +283,7 @@
   <project path="external/kotlinx.atomicfu" name="platform/external/kotlinx.atomicfu" groups="pdk" />
   <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" groups="pdk" />
   <project path="external/kotlinx.metadata" name="platform/external/kotlinx.metadata" groups="pdk" />
+  <project path="external/ktfmt" name="platform/external/ktfmt" groups="pdk" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" />
   <project path="external/libabigail" name="platform/external/libabigail" groups="pdk" />
   <project path="external/libaom" name="platform/external/libaom" groups="pdk" />
@@ -392,6 +398,9 @@
   <project path="external/oss-fuzz" name="platform/external/oss-fuzz" groups="pdk" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" />
   <project path="external/pffft" name="platform/external/pffft" groups="pdk" />
+  <project path="external/pandora/avatar" name="platform/external/pandora/avatar" groups="pdk" />
+  <project path="external/pandora/bt-test-interfaces" name="platform/external/pandora/bt-test-interfaces" groups="pdk" />
+  <project path="external/pandora/mmi2grpc" name="platform/external/pandora/mmi2grpc" groups="pdk" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
@@ -407,6 +416,7 @@
   <project path="external/puffin" name="platform/external/puffin" groups="pdk" />
   <project path="external/python/apitools" name="platform/external/python/apitools" groups="pdk" />
   <project path="external/python/asn1crypto" name="platform/external/python/asn1crypto" groups="pdk" />
+  <project path="external/python/bumble" name="platform/external/python/bumble" groups="pdk" />
   <project path="external/python/cachetools" name="platform/external/python/cachetools" groups="pdk" />
   <project path="external/python/cffi" name="platform/external/python/cffi" groups="pdk" />
   <project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" />
@@ -429,6 +439,7 @@
   <project path="external/python/pyasn1-modules" name="platform/external/python/pyasn1-modules" groups="vts,pdk" />
   <project path="external/python/pybind11" name="platform/external/python/pybind11" groups="pdk" />
   <project path="external/python/pycparser" name="platform/external/python/pycparser" groups="pdk" />
+  <project path="external/python/pyee" name="platform/external/python/pyee" groups="pdk" />
   <project path="external/python/pyfakefs" name="platform/external/python/pyfakefs" groups="pdk" />
   <project path="external/python/pyopenssl" name="platform/external/python/pyopenssl" groups="pdk" />
   <project path="external/python/pyserial" name="platform/external/python/pyserial" groups="pdk" />
@@ -784,6 +795,7 @@
   <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" />
+  <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" />
@@ -882,11 +894,14 @@
   <project path="packages/apps/Car/SystemUI" name="platform/packages/apps/Car/SystemUI" groups="pdk-fs" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" />
   <project path="packages/apps/Car/DebuggingRestrictionController" name="platform/packages/apps/Car/DebuggingRestrictionController" groups="pdk-fs" />
+  <project path="packages/apps/Car/DialerPrebuilt" name="platform/packages/apps/Car/DialerPrebuilt" groups="pdk-fs" />
   <project path="packages/apps/Car/Hvac" name="platform/packages/apps/Car/Hvac" groups="pdk-fs" />
   <project path="packages/apps/Car/LatinIME" name="platform/packages/apps/Car/LatinIME" groups="pdk-fs" />
   <project path="packages/apps/Car/Launcher" name="platform/packages/apps/Car/Launcher" groups="pdk-fs" />
   <project path="packages/apps/Car/LinkViewer" name="platform/packages/apps/Car/LinkViewer" groups="pdk-fs" />
   <project path="packages/apps/Car/LocalMediaPlayer" name="platform/packages/apps/Car/LocalMediaPlayer" groups="pdk-fs" />
+  <project path="packages/apps/Car/MediaPrebuilt" name="platform/packages/apps/Car/MediaPrebuilt" groups="pdk-fs" />
+  <project path="packages/apps/Car/MessengerPrebuilt" name="platform/packages/apps/Car/MessengerPrebuilt" groups="pdk-fs" />
   <project path="packages/apps/Car/Notification" name="platform/packages/apps/Car/Notification" groups="pdk-fs" />
   <project path="packages/apps/Car/Provision" name="platform/packages/apps/Car/Provision" groups="pdk-fs" />
   <project path="packages/apps/Car/Radio" name="platform/packages/apps/Car/Radio" groups="pdk-fs" />
@@ -960,6 +975,7 @@
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/GeoTZ" name="platform/packages/modules/GeoTZ" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" />
