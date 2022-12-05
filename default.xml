@@ -4,11 +4,11 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="android13-qpr1-release"
+  <default revision="refs/tags/android-13.0.0_r16"
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r16"/>
   <contactinfo bugurl="go/repo-bug" />
   <!-- BEGIN open-source projects -->
   <project path="build/make" name="platform/build" groups="pdk" >
