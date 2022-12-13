@@ -112,7 +112,6 @@
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
   <project path="device/google/trout" name="device/google/trout" groups="device,trout,gull,pdk" />
-  <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
   <project path="device/google/zuma" name="device/google/zuma" groups="device,ripcurrent" />
   <project path="device/google/zuma-sepolicy" name="device/google/zuma-sepolicy" groups="device,ripcurrent" />
   <project path="device/google_car" name="device/google_car" groups="pdk" />
