@@ -1011,7 +1011,7 @@
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/TestModule" name="platform/packages/modules/TestModule" />
-  <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Uwb" name="platform_packages_modules_Uwb" groups="pdk-cw-fs,pdk-fs" remote="grapheneos" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Wifi" name="platform_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="grapheneos" />
