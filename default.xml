@@ -88,7 +88,7 @@
   <project path="device/google/gs-common" name="device_google_gs-common" groups="device,slider,bluejay,blueport,cloudripper,pdk-gs-arm,pdk-cw-tvc" remote="grapheneos" />
   <project path="device/google/lynx" name="device_google_lynx" groups="device,lynx" remote="grapheneos" />
   <project path="device/google/lynx-sepolicy" name="device/google/lynx-sepolicy" groups="device,lynx" />
-  <project path="device/google/lynx-kernel" name="device/google/lynx-kernel" groups="device,lynx" clone-depth="1" />
+  <project path="device/google/lynx-kernel" name="device_google_lynx-kernel" groups="device,lynx" clone-depth="1" remote="grapheneos" />
   <project path="device/google/pantah" name="device_google_pantah" groups="device,cloudripper" remote="grapheneos" />
   <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper" />
   <project path="device/google/pantah-kernel" name="device_google_pantah-kernel" groups="device,cloudripper" clone-depth="1" remote="grapheneos" />
