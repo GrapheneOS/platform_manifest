@@ -1150,7 +1150,7 @@
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk" />
   <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" />
-  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/DnsResolver" name="platform_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="grapheneos" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" />
   <project path="packages/modules/NetworkPermissionConfig" name="platform/packages/modules/NetworkPermissionConfig" groups="pdk-cw-fs,pdk-fs" />
