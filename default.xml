@@ -1288,7 +1288,7 @@
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk,sysui-studio" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" />
-  <project path="system/librustutils" name="platform/system/librustutils" groups="pdk" />
+  <project path="system/librustutils" name="platform_system_librustutils" groups="pdk" remote="grapheneos" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
