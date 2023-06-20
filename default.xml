@@ -101,7 +101,7 @@
   <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
   <project path="device/google/tangorpro" name="device_google_tangorpro" groups="device,tangorpro" remote="grapheneos" />
   <project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" />
-  <project path="device/google/tangorpro-kernel" name="device/google/tangorpro-kernel" groups="device,tangorpro" clone-depth="1" />
+  <project path="device/google/tangorpro-kernel" name="device_google_tangorpro-kernel" groups="device,tangorpro" clone-depth="1" remote="grapheneos" />
   <project path="device/google/shusky" name="device/google/shusky" groups="device,ripcurrent" />
   <project path="device/google/shusky-kernel" name="device/google/shusky-kernel" groups="device,ripcurrent" clone-depth="1" />
   <project path="device/google/shusky-sepolicy" name="device/google/shusky-sepolicy" groups="device,ripcurrent" />
