@@ -80,7 +80,7 @@
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
   <project path="device/google/felix" name="device_google_felix" groups="device,felix" remote="grapheneos" />
   <project path="device/google/felix-sepolicy" name="device/google/felix-sepolicy" groups="device,felix" />
-  <project path="device/google/felix-kernel" name="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
+  <project path="device/google/felix-kernel" name="device_google_felix-kernel" groups="device,felix" clone-depth="1" remote="grapheneos" />
   <project path="device/google/gs101" name="device_google_gs101" groups="device,slider,bluejay,blueport,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/gs101-sepolicy" name="device_google_gs101-sepolicy" groups="device,slider,bluejay,blueport,pdk-gs-arm" remote="grapheneos" />
   <project path="device/google/gs201" name="device_google_gs201" groups="device,cloudripper" remote="grapheneos" />
