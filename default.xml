@@ -78,7 +78,7 @@
   <project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
   <project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
-  <project path="device/google/felix" name="device/google/felix" groups="device,felix" />
+  <project path="device/google/felix" name="device_google_felix" groups="device,felix" remote="grapheneos" />
   <project path="device/google/felix-sepolicy" name="device/google/felix-sepolicy" groups="device,felix" />
   <project path="device/google/felix-kernel" name="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
   <project path="device/google/gs101" name="device_google_gs101" groups="device,slider,bluejay,blueport,pdk-gs-arm" remote="grapheneos" />
