@@ -102,9 +102,9 @@
   <project path="device/google/redbull-sepolicy" name="device_google_redbull-sepolicy" groups="device,redbull" remote="grapheneos" />
   <project path="device/google/redfin" name="device_google_redfin" groups="device,redfin" remote="grapheneos" />
   <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
-  <project path="device/google/tangorpro" name="device/google/tangorpro" groups="device,tangorpro" />
-  <project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" />
-  <project path="device/google/tangorpro-kernel" name="device/google/tangorpro-kernel" groups="device,tangorpro" clone-depth="1" />
+  <!--<project path="device/google/tangorpro" name="device/google/tangorpro" groups="device,tangorpro" />-->
+  <!--<project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" />-->
+  <!--<project path="device/google/tangorpro-kernel" name="device/google/tangorpro-kernel" groups="device,tangorpro" clone-depth="1" />-->
   <project path="device/google/sunfish" name="device_google_sunfish" groups="device,sunfish" remote="grapheneos" />
   <project path="device/google/sunfish-kernel" name="device_google_sunfish-kernel" groups="device,sunfish" clone-depth="1" remote="grapheneos" />
   <project path="device/google/sunfish-sepolicy" name="device_google_sunfish-sepolicy" groups="device,sunfish" remote="grapheneos" />
