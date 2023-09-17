@@ -757,7 +757,7 @@
   <project path="external/walt" name="platform/external/walt" groups="pdk" />
   <project path="external/wayland" name="platform/external/wayland" groups="pdk" />
   <project path="external/wayland-protocols" name="platform/external/wayland-protocols" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
+  <project path="external/webp" name="platform_external_webp" groups="pdk,qcom_msm8x26" remote="grapheneos" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/wmediumd" name="platform/external/wmediumd" groups="pdk" />
