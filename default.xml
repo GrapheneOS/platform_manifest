@@ -7,6 +7,9 @@
   <remote  name="grapheneos"
            fetch="https://github.com/GrapheneOS/"
            revision="refs/heads/14-shusky" />
+  <remote  name="grapheneos-gitlab"
+           fetch="https://gitlab.com/grapheneos/"
+           revision="refs/heads/14-shusky" />
   <default revision="refs/tags/android-14.0.0_r11"
            remote="aosp"
            sync-j="4" />
