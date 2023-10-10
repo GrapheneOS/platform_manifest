@@ -4,11 +4,11 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-14.0.0_r2"
+  <default revision="refs/tags/android-14.0.0_r3"
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r2"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r3"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -98,6 +98,9 @@
   <project path="device/google/tangorpro" name="device/google/tangorpro" groups="device,tangorpro" />
   <project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" />
   <project path="device/google/tangorpro-kernel" name="device/google/tangorpro-kernel" groups="device,tangorpro" clone-depth="1" />
+  <project path="device/google/shusky" name="device/google/shusky" groups="device,ripcurrent" />
+  <project path="device/google/shusky-kernel" name="device/google/shusky-kernel" groups="device,ripcurrent" />
+  <project path="device/google/shusky-sepolicy" name="device/google/shusky-sepolicy" groups="device,ripcurrent" />
   <project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
   <project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
   <project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
@@ -105,6 +108,8 @@
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <project path="device/google/trout" name="device/google/trout" groups="device,trout,gull,pdk" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" />
+  <project path="device/google/zuma" name="device/google/zuma" groups="device,ripcurrent" />
+  <project path="device/google/zuma-sepolicy" name="device/google/zuma-sepolicy" groups="device,ripcurrent" />
   <project path="device/google_car" name="device/google_car" groups="pdk" />
   <project path="device/linaro/dragonboard" name="device/linaro/dragonboard" groups="device,dragonboard,pdk" />
   <project path="device/linaro/dragonboard-kernel" name="device/linaro/dragonboard-kernel" groups="device,dragonboard,pdk" clone-depth="1" />
@@ -881,6 +886,7 @@
   <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" />
+  <project path="hardware/google/graphics/zuma" name="platform/hardware/google/graphics/zuma" groups="ripcurrent" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" />
