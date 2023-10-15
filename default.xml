@@ -116,7 +116,7 @@
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
   <project path="device/google/trout" name="device/google/trout" groups="device,trout,gull,pdk" />
   <project path="device/google/zuma" name="device_google_zuma" groups="device,ripcurrent" remote="grapheneos" />
-  <project path="device/google/zuma-sepolicy" name="device/google/zuma-sepolicy" groups="device,ripcurrent" />
+  <project path="device/google/zuma-sepolicy" name="device_google_zuma-sepolicy" groups="device,ripcurrent" remote="grapheneos" />
   <project path="device/google_car" name="device/google_car" groups="pdk" />
   <project path="device/linaro/dragonboard" name="device/linaro/dragonboard" groups="device,dragonboard,pdk" />
   <project path="device/linaro/dragonboard-kernel" name="device/linaro/dragonboard-kernel" groups="device,dragonboard,pdk" clone-depth="1" />
