@@ -70,41 +70,10 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" groups="pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
-  <project path="device/google/barbet" name="device_google_barbet" groups="device,barbet" remote="grapheneos" />
-  <project path="device/google/barbet-sepolicy" name="device_google_barbet-sepolicy" groups="device,barbet" remote="grapheneos" />
-  <project path="device/google/bluejay" name="device_google_bluejay" groups="device,bluejay" remote="grapheneos" />
-  <project path="device/google/bluejay-sepolicy" name="device/google/bluejay-sepolicy" groups="device,bluejay" />
-  <project path="device/google/bluejay-kernel" name="device_google_bluejay-kernel" groups="device,bluejay" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/bramble" name="device_google_bramble" groups="device,bramble" remote="grapheneos" />
-  <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/coral" name="device_google_coral" groups="device,coral,generic_fs" remote="grapheneos" />
   <project path="device/google/coral-kernel" name="device_google_coral-kernel" groups="device,coral,generic_fs" clone-depth="1" remote="grapheneos" />
   <project path="device/google/coral-sepolicy" name="device_google_coral-sepolicy" groups="device,coral,generic_fs" remote="grapheneos" />
-  <project path="device/google/felix" name="device_google_felix" groups="device,felix" remote="grapheneos" />
-  <project path="device/google/felix-sepolicy" name="device/google/felix-sepolicy" groups="device,felix" />
-  <project path="device/google/felix-kernel" name="device_google_felix-kernel" groups="device,felix" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/gs101" name="device_google_gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="grapheneos" />
-  <project path="device/google/gs101-sepolicy" name="device_google_gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="grapheneos" />
-  <project path="device/google/gs201" name="device_google_gs201" groups="device,cloudripper" remote="grapheneos" />
-  <project path="device/google/gs201-sepolicy" name="device_google_gs201-sepolicy" groups="device,cloudripper" remote="grapheneos" />
-  <project path="device/google/gs-common" name="device_google_gs-common" groups="device,slider,bluejay,pdk-gs-arm" remote="grapheneos" />
-  <project path="device/google/lynx" name="device_google_lynx" groups="device,lynx" remote="grapheneos" />
-  <project path="device/google/lynx-sepolicy" name="device/google/lynx-sepolicy" groups="device,lynx" />
-  <project path="device/google/lynx-kernel" name="device_google_lynx-kernel" groups="device,lynx" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/pantah" name="device_google_pantah" groups="device,cloudripper" remote="grapheneos" />
-  <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper" />
-  <project path="device/google/pantah-kernel" name="device_google_pantah-kernel" groups="device,cloudripper" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/raviole" name="device_google_raviole" groups="device,slider,pdk-gs-arm" remote="grapheneos" />
-  <project path="device/google/raviole-kernel" name="device_google_raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/redbull" name="device_google_redbull" groups="device,redbull" remote="grapheneos" />
-  <project path="device/google/redbull-kernel" name="device_google_redbull-kernel" groups="device,bramble,redfin" clone-depth="1" remote="grapheneos" />
-  <project path="device/google/redbull-sepolicy" name="device_google_redbull-sepolicy" groups="device,redbull" remote="grapheneos" />
-  <project path="device/google/redfin" name="device_google_redfin" groups="device,redfin" remote="grapheneos" />
-  <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
-  <project path="device/google/tangorpro" name="device_google_tangorpro" groups="device,tangorpro" remote="grapheneos" />
-  <project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" />
-  <project path="device/google/tangorpro-kernel" name="device_google_tangorpro-kernel" groups="device,tangorpro" clone-depth="1" remote="grapheneos" />
   <project path="device/google/sunfish" name="device_google_sunfish" groups="device,sunfish" remote="grapheneos" />
   <project path="device/google/sunfish-kernel" name="device_google_sunfish-kernel" groups="device,sunfish" clone-depth="1" remote="grapheneos" />
   <project path="device/google/sunfish-sepolicy" name="device_google_sunfish-sepolicy" groups="device,sunfish" remote="grapheneos" />
