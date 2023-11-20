@@ -853,7 +853,7 @@
   <project path="external/sdv/vsomeip" name="platform/external/sdv/vsomeip" groups="pdk" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
   <project path="external/seedvault" name="platform_external_seedvault" remote="grapheneos" />
-  <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
+  <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="grapheneos" />
   <project path="external/setfilters" name="platform/external/setfilters" groups="pdk" />
   <project path="external/setupcompat" name="platform/external/setupcompat" groups="pdk,sysui-studio" />
   <project path="external/setupdesign" name="platform/external/setupdesign" groups="pdk,sysui-studio" />
