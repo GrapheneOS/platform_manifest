@@ -967,7 +967,7 @@
   <project path="hardware/google/aemu" name="platform/hardware/google/aemu" groups="pdk" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" />
-  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" />
+  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" revision="45eb91de6dcb551747e753b2a995a19ef0df9f88" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
   <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk" />
