@@ -78,9 +78,6 @@
   <project path="device/google/bramble" name="device_google_bramble" groups="device,bramble" remote="grapheneos" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
-  <project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
-  <project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
-  <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
   <project path="device/google/felix" name="device_google_felix" groups="device,felix" remote="grapheneos" />
   <project path="device/google/felix-sepolicy" name="device/google/felix-sepolicy" groups="device,felix" />
   <project path="device/google/felix-kernel" name="device_google_felix-kernel" groups="device,felix" clone-depth="1" remote="grapheneos" />
@@ -108,9 +105,6 @@
   <project path="device/google/shusky" name="device_google_shusky" groups="device,ripcurrent" remote="grapheneos" />
   <project path="device/google/shusky-kernel" name="device_google_shusky-kernel" groups="device,ripcurrent" clone-depth="1" remote="grapheneos" />
   <project path="device/google/shusky-sepolicy" name="device/google/shusky-sepolicy" groups="device,ripcurrent" />
-  <project path="device/google/sunfish" name="device/google/sunfish" groups="device,sunfish" />
-  <project path="device/google/sunfish-kernel" name="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" />
-  <project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
