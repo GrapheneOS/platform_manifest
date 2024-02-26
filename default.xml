@@ -979,7 +979,7 @@
   <project path="hardware/google/pixel" name="platform_hardware_google_pixel" groups="generic_fs,pixel" remote="grapheneos" />
   <project path="hardware/google/pixel-sepolicy" name="platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="grapheneos" />
   <project path="hardware/google/trusty" name="platform/hardware/google/trusty" groups="pdk" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk,sysui-studio" remote="grapheneos" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
