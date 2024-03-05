@@ -48,7 +48,7 @@
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
-  <project path="development" name="platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="grapheneos" />
+  <project path="development" name="platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="grapheneos-gitlab" />
   <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
   <project path="device/amlogic/yukawa-kernel" name="device/amlogic/yukawa-kernel" groups="device,yukawa,pdk" clone-depth="2" />
   <project path="device/common" name="device_common" groups="pdk-cw-fs,pdk" remote="grapheneos" />
