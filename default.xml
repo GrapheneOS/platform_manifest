@@ -813,7 +813,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="grapheneos" aosp-name="platform/packages/inputmethods/LatinIME"/>
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs"/>
   <project path="packages/modules/adb" name="platform_packages_modules_adb" groups="pdk" remote="grapheneos" aosp-name="platform/packages/modules/adb"/>
-  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
+  <project path="packages/modules/AdServices" name="platform_packages_modules_AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="grapheneos" aosp-name="platform/packages/modules/AdServices"/>
   <project path="packages/modules/AppSearch" name="platform_packages_modules_AppSearch" groups="pdk" remote="grapheneos" aosp-name="platform/packages/modules/AppSearch"/>
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1"/>
   <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" groups="pdk" remote="grapheneos" aosp-name="platform/packages/modules/Bluetooth"/>
