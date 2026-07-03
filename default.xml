@@ -190,7 +190,7 @@
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk"/>
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk"/>
   <project path="external/FP16" name="platform/external/FP16" groups="pdk"/>
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk"/>
+  <project path="external/freetype" name="platform_external_freetype" groups="pdk" remote="grapheneos" aosp-name="platform/external/freetype"/>
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk"/>
   <project path="external/fsverity-utils" name="platform/external/fsverity-utils" groups="pdk"/>
   <project path="external/FXdiv" name="platform/external/FXdiv" groups="pdk"/>

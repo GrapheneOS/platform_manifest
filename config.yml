@@ -149,6 +149,7 @@ forked_aosp_repos:
     - platform/build/soong
     - platform/development
     - platform/external/conscrypt
+    - platform/external/freetype
     - platform/external/libpng
     - platform/external/protobuf
     - platform/external/selinux
