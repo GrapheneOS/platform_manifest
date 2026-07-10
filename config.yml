@@ -147,6 +147,7 @@ forked_aosp_repos:
     - platform/build
     - platform/build/release
     - platform/build/soong
+    - platform/cts
     - platform/development
     - platform/external/conscrypt
     - platform/external/freetype

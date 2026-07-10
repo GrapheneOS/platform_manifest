@@ -29,7 +29,7 @@
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs"/>
+  <project path="cts" name="platform_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="grapheneos" aosp-name="platform/cts"/>
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs"/>
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk"/>
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers"/>
