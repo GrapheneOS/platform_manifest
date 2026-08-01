@@ -76,6 +76,10 @@ additional_projects:
   - path: external/PdfViewer
     name: platform_external_PdfViewer
     clone_depth: 1
+  - path: external/population-density
+    name: platform_external_population-density
+    groups: pdk-fs
+    clone_depth: 1
   - path: external/SpeechServices
     name: platform_external_SpeechServices
     clone_depth: 1
@@ -160,6 +164,7 @@ forked_aosp_repos:
     - platform/frameworks/native
     - platform/frameworks/opt/net/wifi
     - platform/frameworks/opt/telephony
+    - platform/frameworks/proto_logging
     - platform/libcore
     - platform/packages/apps/Calendar
     - platform/packages/apps/CellBroadcastReceiver
@@ -209,6 +214,7 @@ forked_aosp_repos:
     - platform/system/vold
     - platform/system/zygote
     - platform/tools/apksig
+    - platform/tools/lint_checks
     - platform/tools/metalava
 clone_depth_1_aosp_repos:
   - platform/external/deqp
