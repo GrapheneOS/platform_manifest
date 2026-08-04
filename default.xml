@@ -470,6 +470,7 @@
   <project path="external/pixman" name="platform/external/pixman" groups="pdk"/>
   <project path="external/ply" name="platform/external/ply" groups="pdk"/>
   <project path="external/pogreb" name="platform/external/pogreb" groups="pdk"/>
+  <project path="external/population-density" name="platform_external_population-density" groups="pdk-fs" remote="grapheneos" clone-depth="1"/>
   <project path="external/private-join-and-compute" name="platform/external/private-join-and-compute" groups="pdk"/>
   <project path="external/protobuf" name="platform_external_protobuf" groups="pdk,sysui-studio" remote="grapheneos" aosp-name="platform/external/protobuf"/>
   <project path="external/pthreadpool" name="platform/external/pthreadpool" groups="pdk"/>
@@ -670,7 +671,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs"/>
   <project path="frameworks/opt/tv/tvsystem" name="platform/frameworks/opt/tv/tvsystem" groups="pdk-cw-fs,pdk-fs"/>
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs"/>
-  <project path="frameworks/proto_logging" name="platform/frameworks/proto_logging" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
+  <project path="frameworks/proto_logging" name="platform_frameworks_proto_logging" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="grapheneos" aosp-name="platform/frameworks/proto_logging"/>
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs"/>
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk"/>
@@ -1080,7 +1081,7 @@
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk"/>
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools"/>
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools"/>
-  <project path="tools/lint_checks" name="platform/tools/lint_checks" groups="pdk"/>
+  <project path="tools/lint_checks" name="platform_tools_lint_checks" groups="pdk" remote="grapheneos" aosp-name="platform/tools/lint_checks"/>
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed"/>
   <project path="tools/mainline" name="platform/tools/mainline" groups="tools"/>
   <project path="tools/metalava" name="platform_tools_metalava" groups="pdk,tools" remote="grapheneos" aosp-name="platform/tools/metalava"/>
