@@ -171,7 +171,7 @@
   <project path="external/error_prone" name="platform/external/error_prone" groups="pdk"/>
   <project path="external/escapevelocity" name="platform/external/escapevelocity" groups="pdk"/>
   <project path="external/ethtool" name="platform/external/ethtool" groups="pdk"/>
-  <project path="external/exfatprogs" name="platform/external/exfatprogs" groups="pdk"/>
+  <project path="external/exfatprogs" name="platform_external_exfatprogs" groups="pdk" remote="grapheneos" aosp-name="platform/external/exfatprogs"/>
   <project path="external/exoplayer" name="platform/external/exoplayer" groups="pdk"/>
   <project path="external/expat" name="platform/external/expat" groups="pdk"/>
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk"/>

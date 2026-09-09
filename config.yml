@@ -150,6 +150,7 @@ forked_aosp_repos:
     - platform/cts
     - platform/development
     - platform/external/conscrypt
+    - platform/external/exfatprogs
     - platform/external/freetype
     - platform/external/libpng
     - platform/external/protobuf
