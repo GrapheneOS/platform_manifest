@@ -327,7 +327,7 @@
   <project path="external/libchrome-gestures" name="platform/external/libchrome-gestures" groups="pdk"/>
   <project path="external/libconfig" name="platform/external/libconfig" groups="pdk"/>
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs"/>
-  <project path="external/libcupsfilters" name="platform/external/libcupsfilters" groups="pdk"/>
+  <project path="external/libcupsfilters" name="platform_external_libcupsfilters" groups="pdk" remote="grapheneos" aosp-name="platform/external/libcupsfilters"/>
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk"/>
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk"/>
   <project path="external/libdav1d" name="platform/external/libdav1d" groups="pdk"/>
