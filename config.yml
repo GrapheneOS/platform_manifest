@@ -165,6 +165,7 @@ forked_aosp_repos:
     - platform/frameworks/native
     - platform/frameworks/opt/net/wifi
     - platform/frameworks/opt/telephony
+    - platform/hardware/interfaces
     - platform/libcore
     - platform/packages/apps/Calendar
     - platform/packages/apps/CellBroadcastReceiver
