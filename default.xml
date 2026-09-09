@@ -993,7 +993,7 @@
   <project path="system/libskuconfig" name="platform/system/libskuconfig" groups="pdk"/>
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk"/>
   <project path="system/libueventd-rs" name="platform/system/libueventd-rs" groups="pdk"/>
-  <project path="system/libufdt" name="platform/system/libufdt" groups="pdk"/>
+  <project path="system/libufdt" name="platform_system_libufdt" groups="pdk" remote="grapheneos" aosp-name="platform/system/libufdt"/>
   <project path="system/liburingutils" name="platform/system/liburingutils" groups="pdk"/>
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk"/>
   <project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk"/>

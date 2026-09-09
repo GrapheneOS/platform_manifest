@@ -213,6 +213,7 @@ forked_aosp_repos:
     - platform/system/extras
     - platform/system/fs/fs_mgr
     - platform/system/libfmq
+    - platform/system/libufdt
     - platform/system/logging
     - platform/system/netd
     - platform/system/sepolicy
