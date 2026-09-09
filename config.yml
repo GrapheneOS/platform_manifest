@@ -152,6 +152,7 @@ forked_aosp_repos:
     - platform/external/conscrypt
     - platform/external/exfatprogs
     - platform/external/freetype
+    - platform/external/libcupsfilters
     - platform/external/libpng
     - platform/external/protobuf
     - platform/external/selinux
