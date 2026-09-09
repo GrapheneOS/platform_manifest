@@ -691,7 +691,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk"/>
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk"/>
   <project path="hardware/sdv/interfaces" name="platform/hardware/sdv/interfaces" groups="swcar,pdk"/>
-  <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk"/>
+  <project path="hardware/st/nfc" name="platform_hardware_st_nfc" groups="pdk" remote="grapheneos" aosp-name="platform/hardware/st/nfc"/>
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk"/>
   <project path="hardware/st/secure_element2" name="platform/hardware/st/secure_element2" groups="pdk"/>
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk"/>
