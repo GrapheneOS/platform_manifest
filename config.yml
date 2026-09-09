@@ -211,6 +211,7 @@ forked_aosp_repos:
     - platform/system/ca-certificates
     - platform/system/core
     - platform/system/extras
+    - platform/system/fs/fs_mgr
     - platform/system/logging
     - platform/system/netd
     - platform/system/sepolicy
