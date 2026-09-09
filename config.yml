@@ -204,6 +204,7 @@ forked_aosp_repos:
     - platform/packages/providers/DownloadProvider
     - platform/packages/providers/MediaProvider
     - platform/packages/providers/TelephonyProvider
+    - platform/packages/services/BuiltInPrintService
     - platform/packages/services/Mms
     - platform/packages/services/Telecomm
     - platform/packages/services/Telephony
