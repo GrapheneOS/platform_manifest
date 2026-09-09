@@ -253,13 +253,64 @@ removed_aosp_repos:
   - platform/hardware/nxp/secure_element
   - platform/packages/apps/Browser2
   - platform/packages/apps/Camera2
+  - platform/packages/apps/Car/CalendarPrebuilt
+  - platform/packages/apps/Car/Cluster
+  - platform/packages/apps/Car/DataSubscriptionReference
+  - platform/packages/apps/Car/DebuggingRestrictionController
+  - platform/packages/apps/Car/DialerPrebuilt
+  - platform/packages/apps/Car/DriverUIPrebuilt
+  - platform/packages/apps/Car/LatinIME
+  - platform/packages/apps/Car/LinkViewer
+  - platform/packages/apps/Car/LocalMediaPlayer
+  - platform/packages/apps/Car/MediaPrebuilt
+  - platform/packages/apps/Car/MessengerPrebuilt
+  - platform/packages/apps/Car/Provision
+  - platform/packages/apps/Car/RadioPrebuilt
+  - platform/packages/apps/Car/References
+  - platform/packages/apps/Car/RotaryImePrebuilt
+  - platform/packages/apps/Car/SettingsIntelligence
+  - platform/packages/apps/Car/SystemUpdater
+  - platform/packages/apps/Car/Templates
+  - platform/packages/apps/Car/TemplatesPrebuilt
+  - platform/packages/apps/Car/VoiceControl
   - platform/packages/apps/DeskClock
   - platform/packages/apps/Gallery
   - platform/packages/apps/LegacyCamera
   - platform/packages/apps/Messaging
   - platform/packages/apps/QuickSearchBox
+  - platform/packages/apps/TV
+  - platform/packages/apps/TvFeedbackConsent
+  - platform/packages/providers/TvProvider
   - platform/prebuilts/bazel/darwin-x86_64
   - platform/prebuilts/clang/host/darwin-x86
   - platform/prebuilts/go/darwin-x86
-  - platform/prebuilts/rust-toolchain/darwin
+  - platform/prebuilts/module_sdk/AdServices
+  - platform/prebuilts/module_sdk/AppSearch
+  - platform/prebuilts/module_sdk/Bluetooth
+  - platform/prebuilts/module_sdk/ConfigInfrastructure
+  - platform/prebuilts/module_sdk/Connectivity
+  - platform/prebuilts/module_sdk/CrashRecovery
+  - platform/prebuilts/module_sdk/DeviceLock
+  - platform/prebuilts/module_sdk/HealthFitness
+  - platform/prebuilts/module_sdk/IPsec
+  - platform/prebuilts/module_sdk/Media
+  - platform/prebuilts/module_sdk/MediaProvider
+  - platform/prebuilts/module_sdk/Nfc
+  - platform/prebuilts/module_sdk/NpuManager
+  - platform/prebuilts/module_sdk/OnDevicePersonalization
+  - platform/prebuilts/module_sdk/Permission
+  - platform/prebuilts/module_sdk/Profiling
+  - platform/prebuilts/module_sdk/RemoteKeyProvisioning
+  - platform/prebuilts/module_sdk/Scheduling
+  - platform/prebuilts/module_sdk/SdkExtensions
+  - platform/prebuilts/module_sdk/StatsD
+  - platform/prebuilts/module_sdk/Telephony
+  - platform/prebuilts/module_sdk/UprobeStats
+  - platform/prebuilts/module_sdk/Uwb
+  - platform/prebuilts/module_sdk/WebApp
+  - platform/prebuilts/module_sdk/WebViewBootstrap
+  - platform/prebuilts/module_sdk/Wifi
+  - platform/prebuilts/module_sdk/art
+  - platform/prebuilts/module_sdk/conscrypt
   - platform/prebuilts/qemu-kernel
+  - platform/prebuilts/rust-toolchain/darwin
