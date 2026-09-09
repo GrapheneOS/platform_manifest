@@ -679,7 +679,7 @@
   <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk"/>
   <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk"/>
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio"/>
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio"/>
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk,sysui-studio" remote="grapheneos" aosp-name="platform/hardware/interfaces"/>
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk"/>
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk"/>
