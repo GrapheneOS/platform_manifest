@@ -758,7 +758,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="grapheneos" aosp-name="platform/packages/apps/CellBroadcastReceiver"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="grapheneos" aosp-name="platform/packages/apps/Contacts"/>
-  <project path="packages/apps/ContactsPicker" name="platform/packages/apps/ContactsPicker" groups="pdk-fs"/>
+  <project path="packages/apps/ContactsPicker" name="platform_packages_apps_ContactsPicker" groups="pdk-fs" remote="grapheneos" aosp-name="platform/packages/apps/ContactsPicker"/>
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="grapheneos"/>
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk"/>
   <project path="packages/apps/DeviceDiagnostics" name="platform/packages/apps/DeviceDiagnostics" groups="pdk"/>

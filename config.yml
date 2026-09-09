@@ -171,6 +171,7 @@ forked_aosp_repos:
     - platform/packages/apps/Calendar
     - platform/packages/apps/CellBroadcastReceiver
     - platform/packages/apps/Contacts
+    - platform/packages/apps/ContactsPicker
     - platform/packages/apps/Dialer
     - platform/packages/apps/DocumentsUI
     - platform/packages/apps/EmergencyInfo
