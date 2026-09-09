@@ -196,6 +196,7 @@ forked_aosp_repos:
     - platform/packages/modules/Permission
     - platform/packages/modules/RemoteKeyProvisioning
     - platform/packages/modules/StatsD
+    - platform/packages/modules/Telephony
     - platform/packages/modules/Uwb
     - platform/packages/modules/Virtualization
     - platform/packages/modules/Wifi
