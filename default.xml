@@ -341,7 +341,7 @@
   <project path="external/libfuse" name="platform/external/libfuse" groups="pdk"/>
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk"/>
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk"/>
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk"/>
+  <project path="external/libhevc" name="platform_external_libhevc" groups="pdk" remote="grapheneos" aosp-name="platform/external/libhevc"/>
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk"/>
   <project path="external/libjxl" name="platform/external/libjxl" groups="pdk"/>
   <project path="external/libkmsxx" name="platform/external/libkmsxx" groups="pdk"/>
