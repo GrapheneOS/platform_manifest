@@ -985,7 +985,7 @@
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk"/>
   <project path="system/libbase" name="platform/system/libbase" groups="pdk"/>
   <project path="system/libcppbor" name="platform/system/libcppbor" groups="pdk"/>
-  <project path="system/libfmq" name="platform/system/libfmq" groups="pdk"/>
+  <project path="system/libfmq" name="platform_system_libfmq" groups="pdk" remote="grapheneos" aosp-name="platform/system/libfmq"/>
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk,sysui-studio"/>
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk"/>
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk"/>
