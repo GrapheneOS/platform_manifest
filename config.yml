@@ -134,8 +134,8 @@ additional_non_manifest_repos:
   - kernel_manifest-6.1
   - kernel_manifest-6.6
   - kernel_manifest-6.12
-  - kernel_pixel
-  - kernel_pixel_muzel
+  - kernel_pixel_6.1
+  - kernel_pixel_6.6
   - platform_manifest
 forked_aosp_repos:
   grapheneos:
