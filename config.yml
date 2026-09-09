@@ -154,6 +154,7 @@ forked_aosp_repos:
     - platform/external/freetype
     - platform/external/libcupsfilters
     - platform/external/libhevc
+    - platform/external/libjxl
     - platform/external/libpng
     - platform/external/protobuf
     - platform/external/selinux
