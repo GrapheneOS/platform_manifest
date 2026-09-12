@@ -1,0 +1,16 @@
+# Build products and provenance belong with the complete source checkout.
+out/
+releases/
+build-metadata/
+*.log
+
+# Guardrail only: private and encrypted production keys must never be committed.
+keys/
+private/
+*.pem
+*.pk8
+*.p12
+*.jks
+*.keystore
+id_ed25519
+id_ed25519.pub

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Intentionally unused until the first reviewed component fork exists. -->
+  <remote
+      name="sovereign"
+      fetch="https://github.com/samsam380/"
+      revision="refs/heads/sovereign-17" />
+</manifest>
