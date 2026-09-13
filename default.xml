@@ -247,7 +247,7 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk"/>
   <project path="external/iamf_tools" name="platform/external/iamf_tools" groups="pdk"/>
   <project path="external/icing" name="platform/external/icing" groups="pdk"/>
-  <project path="external/icu" name="platform/external/icu" groups="pdk" clone-depth="1"/>
+  <project path="external/icu" name="platform_external_icu" groups="pdk" remote="grapheneos" aosp-name="platform/external/icu" clone-depth="1"/>
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk"/>
   <project path="external/image_io" name="platform/external/image_io" groups="pdk"/>
   <project path="external/ims" name="platform/external/ims" groups="pdk"/>
