@@ -128,7 +128,7 @@
   <project path="external/chromium-web-tests" name="platform/external/chromium-web-tests" groups="pdk"/>
   <project path="external/chromiumos-config" name="platform/external/chromiumos-config" groups="pdk" clone-depth="1"/>
   <project path="external/clang" name="platform/external/clang" groups="pdk"/>
-  <project path="external/cldr" name="platform/external/cldr" groups="pdk"/>
+  <project path="external/cldr" name="platform_external_cldr" groups="pdk" remote="grapheneos" aosp-name="platform/external/cldr"/>
   <project path="external/clpeak" name="platform/external/clpeak" groups="pdk"/>
   <project path="external/clspv" name="platform/external/clspv" groups="pdk"/>
   <project path="external/clvk" name="platform/external/clvk" groups="pdk"/>
