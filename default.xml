@@ -985,7 +985,7 @@
   <project path="system/software_defined_vehicle/vsidl" name="platform/system/software_defined_vehicle/vsidl" groups="swcar,pdk"/>
   <project path="system/teeui" name="platform/system/teeui" groups="pdk"/>
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk"/>
-  <project path="system/timezone" name="platform/system/timezone" groups="pdk"/>
+  <project path="system/timezone" name="platform_system_timezone" groups="pdk" remote="grapheneos" aosp-name="platform/system/timezone"/>
   <project path="system/tools/aidl" name="platform_system_tools_aidl" groups="pdk" remote="grapheneos" aosp-name="platform/system/tools/aidl"/>
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk"/>
   <project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk"/>
