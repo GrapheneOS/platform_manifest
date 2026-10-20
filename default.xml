@@ -51,7 +51,7 @@
   <project path="device/google/bluejay-kernels/6.1" name="device_google_bluejay-kernels_6.1" remote="grapheneos" clone-depth="1"/>
   <project path="device/google/caimito-kernels/6.1" name="device_google_caimito-kernels_6.1" remote="grapheneos" clone-depth="1"/>
   <project path="device/google/comet-kernels/6.1" name="device_google_comet-kernels_6.1" remote="grapheneos" clone-depth="1"/>
-  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk"/>
+  <project path="device/google/cuttlefish" name="device_google_cuttlefish" groups="device,pdk" remote="grapheneos" aosp-name="device/google/cuttlefish"/>
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1"/>
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1"/>
   <project path="device/google/felix-kernels/6.1" name="device_google_felix-kernels_6.1" remote="grapheneos" clone-depth="1"/>

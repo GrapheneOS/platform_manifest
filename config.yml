@@ -142,6 +142,7 @@ forked_aosp_repos:
   grapheneos:
     - device/common
     - device/generic/goldfish
+    - device/google/cuttlefish
     - platform/art
     - platform/bionic
     - platform/bootable/recovery
