@@ -396,7 +396,7 @@
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk"/>
   <project path="external/mbedtls" name="platform/external/mbedtls" groups="pdk"/>
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk"/>
-  <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs"/>
+  <project path="external/mesa3d" name="platform_external_mesa3d" groups="pdk-cw-fs,pdk-fs" remote="grapheneos" aosp-name="platform/external/mesa3d"/>
   <project path="external/Messaging" name="platform_external_Messaging" remote="grapheneos" clone-depth="1"/>
   <project path="external/mime-support" name="platform/external/mime-support" groups="pdk"/>
   <project path="external/minidns" name="platform/external/minidns" groups="pdk"/>

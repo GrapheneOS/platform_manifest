@@ -160,6 +160,7 @@ forked_aosp_repos:
     - platform/external/libhevc
     - platform/external/libjxl
     - platform/external/libpng
+    - platform/external/mesa3d
     - platform/external/protobuf
     - platform/external/selinux
     - platform/external/wpa_supplicant_8
