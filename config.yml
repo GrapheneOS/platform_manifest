@@ -129,10 +129,6 @@ additional_projects:
     name: platform_packages_apps_SetupWizard2
   - path: packages/apps/Updater
     name: platform_packages_apps_Updater
-  - path: prebuilts/qemu-kernel
-    name: platform_prebuilts_qemu-kernel
-    groups: pdk
-    clone_depth: 1
   - path: script
     name: script
   - path: tools/arsclib

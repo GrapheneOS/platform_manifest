@@ -894,7 +894,6 @@
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1"/>
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1"/>
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1"/>
-  <project path="prebuilts/qemu-kernel" name="platform_prebuilts_qemu-kernel" groups="pdk" remote="grapheneos" clone-depth="1"/>
   <project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk,sysui-studio" clone-depth="1"/>
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1"/>
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" groups="pdk" clone-depth="1"/>
