@@ -87,6 +87,22 @@ additional_projects:
     name: platform_external_vanadium
     clone_depth: 1
     remote: grapheneos-gitlab
+  - path: kernel/prebuilts/6.18/arm64
+    name: kernel_prebuilts_6.18_arm64
+    groups: pdk
+    clone_depth: 1
+  - path: kernel/prebuilts/6.18/x86_64
+    name: kernel_prebuilts_6.18_x86-64
+    groups: pdk
+    clone_depth: 1
+  - path: kernel/prebuilts/common-modules/virtual-device/6.18/arm64
+    name: kernel_prebuilts_common-modules_virtual-device_6.18_arm64
+    groups: pdk
+    clone_depth: 1
+  - path: kernel/prebuilts/common-modules/virtual-device/6.18/x86-64
+    name: kernel_prebuilts_common-modules_virtual-device_6.18_x86-64
+    groups: pdk
+    clone_depth: 1
   - path: packages/apps/AppCompatConfig
     name: platform_packages_apps_AppCompatConfig
     groups: pdk-fs
@@ -251,6 +267,10 @@ removed_aosp_repos:
   - device/google/common/etm
   - device/google/contexthub
   - device/google/trout
+  - kernel/prebuilts/6.18/arm64
+  - kernel/prebuilts/6.18/x86-64
+  - kernel/prebuilts/common-modules/virtual-device/6.18/arm64
+  - kernel/prebuilts/common-modules/virtual-device/6.18/x86-64
   - platform/external/chromium-webview
   - platform/external/nos/host/generic
   - platform/hardware/google/av

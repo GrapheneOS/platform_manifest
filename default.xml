@@ -702,8 +702,8 @@
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1"/>
   <project path="kernel/prebuilts/6.12/arm64" name="kernel/prebuilts/6.12/arm64" groups="pdk" clone-depth="1"/>
   <project path="kernel/prebuilts/6.12/x86_64" name="kernel/prebuilts/6.12/x86-64" groups="pdk" clone-depth="1"/>
-  <project path="kernel/prebuilts/6.18/arm64" name="kernel/prebuilts/6.18/arm64" groups="pdk" clone-depth="1"/>
-  <project path="kernel/prebuilts/6.18/x86_64" name="kernel/prebuilts/6.18/x86-64" groups="pdk" clone-depth="1"/>
+  <project path="kernel/prebuilts/6.18/arm64" name="kernel_prebuilts_6.18_arm64" groups="pdk" remote="grapheneos" clone-depth="1"/>
+  <project path="kernel/prebuilts/6.18/x86_64" name="kernel_prebuilts_6.18_x86-64" groups="pdk" remote="grapheneos" clone-depth="1"/>
   <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1"/>
   <project path="kernel/prebuilts/6.6/x86_64" name="kernel/prebuilts/6.6/x86-64" groups="pdk" clone-depth="1"/>
   <project path="kernel/prebuilts/common-modules/trusty/6.12/arm64" name="kernel/prebuilts/common-modules/trusty/6.12/arm64" groups="pdk" clone-depth="1"/>
@@ -712,8 +712,8 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" groups="pdk" clone-depth="1"/>
   <project path="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" groups="pdk" clone-depth="1"/>
   <project path="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" groups="pdk" clone-depth="1"/>
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" groups="pdk" clone-depth="1"/>
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" groups="pdk" clone-depth="1"/>
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" name="kernel_prebuilts_common-modules_virtual-device_6.18_arm64" groups="pdk" remote="grapheneos" clone-depth="1"/>
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" name="kernel_prebuilts_common-modules_virtual-device_6.18_x86-64" groups="pdk" remote="grapheneos" clone-depth="1"/>
   <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk" clone-depth="1"/>
   <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk" clone-depth="1"/>
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1"/>
