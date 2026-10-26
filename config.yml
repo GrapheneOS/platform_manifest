@@ -26,6 +26,9 @@ additional_projects:
   - path: device/google/laguna-kernels/6.6
     name: device_google_laguna-kernels_6.6
     clone_depth: 1
+  - path: device/google/laguna-kernels/6.18
+    name: device_google_laguna-kernels_6.18
+    clone_depth: 1
   - path: device/google/lynx-kernels/6.1
     name: device_google_lynx-kernels_6.1
     clone_depth: 1

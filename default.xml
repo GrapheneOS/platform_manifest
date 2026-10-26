@@ -55,6 +55,7 @@
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1"/>
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1"/>
   <project path="device/google/felix-kernels/6.1" name="device_google_felix-kernels_6.1" remote="grapheneos" clone-depth="1"/>
+  <project path="device/google/laguna-kernels/6.18" name="device_google_laguna-kernels_6.18" remote="grapheneos" clone-depth="1"/>
   <project path="device/google/laguna-kernels/6.6" name="device_google_laguna-kernels_6.6" remote="grapheneos" clone-depth="1"/>
   <project path="device/google/lynx-kernels/6.1" name="device_google_lynx-kernels_6.1" remote="grapheneos" clone-depth="1"/>
   <project path="device/google/pantah-kernels/6.1" name="device_google_pantah-kernels_6.1" remote="grapheneos" clone-depth="1"/>
