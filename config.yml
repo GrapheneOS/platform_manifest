@@ -219,6 +219,7 @@ forked_aosp_repos:
     - platform/packages/modules/Uwb
     - platform/packages/modules/Virtualization
     - platform/packages/modules/Wifi
+    - platform/packages/providers/BlockedNumberProvider
     - platform/packages/providers/ContactsProvider
     - platform/packages/providers/DownloadProvider
     - platform/packages/providers/MediaProvider
