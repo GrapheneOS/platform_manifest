@@ -254,6 +254,7 @@ forked_aosp_repos:
     - platform/system/zygote
     - platform/tools/apksig
     - platform/tools/metalava
+    - trusty/lib
 clone_depth_1_aosp_repos:
   - platform/external/deqp
   - platform/external/icu
