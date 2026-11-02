@@ -71,7 +71,7 @@
   <project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk"/>
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" groups="device,hikey,pdk" clone-depth="1"/>
   <project path="device/sample" name="device/sample" groups="pdk"/>
-  <project path="external/aac" name="platform/external/aac" groups="pdk"/>
+  <project path="external/aac" name="platform_external_aac" groups="pdk" remote="grapheneos" aosp-name="platform/external/aac"/>
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="pdk"/>
   <project path="external/accessibility-test-framework" name="platform/external/accessibility-test-framework" groups="pdk"/>
   <project path="external/accompanist" name="platform/external/accompanist" groups="pdk"/>
