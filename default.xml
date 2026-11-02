@@ -244,7 +244,7 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk"/>
   <project path="external/hardened_malloc" name="hardened_malloc" remote="grapheneos"/>
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26"/>
-  <project path="external/hplip" name="platform/external/hplip" groups="pdk"/>
+  <project path="external/hplip" name="platform_external_hplip" groups="pdk" remote="grapheneos" aosp-name="platform/external/hplip"/>
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk"/>
   <project path="external/iamf_tools" name="platform/external/iamf_tools" groups="pdk"/>
   <project path="external/icing" name="platform/external/icing" groups="pdk"/>
