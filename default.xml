@@ -756,7 +756,7 @@
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="grapheneos" aosp-name="platform/packages/apps/Launcher3"/>
   <project path="packages/apps/Login" name="platform/packages/apps/Login" groups="pdk-fs"/>
   <project path="packages/apps/LogViewer" name="platform_packages_apps_LogViewer" groups="pdk-fs" remote="grapheneos"/>
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs"/>
+  <project path="packages/apps/ManagedProvisioning" name="platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="grapheneos" aosp-name="platform/packages/apps/ManagedProvisioning"/>
   <project path="packages/apps/Multiuser" name="platform/packages/apps/Multiuser" groups="pdk-fs"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs"/>
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs"/>
