@@ -170,6 +170,7 @@ forked_aosp_repos:
     - platform/external/conscrypt
     - platform/external/exfatprogs
     - platform/external/freetype
+    - platform/external/hplip
     - platform/external/icu
     - platform/external/libcupsfilters
     - platform/external/libhevc
