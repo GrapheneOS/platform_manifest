@@ -206,6 +206,7 @@ forked_aosp_repos:
     - platform/packages/apps/SettingsIntelligence
     - platform/packages/apps/StorageManager
     - platform/packages/apps/ThemePicker
+    - platform/packages/apps/TvSettings
     - platform/packages/apps/WallpaperPicker2
     - platform/packages/inputmethods/LatinIME
     - platform/packages/modules/adb
