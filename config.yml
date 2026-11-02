@@ -179,6 +179,7 @@ forked_aosp_repos:
     - platform/external/mesa3d
     - platform/external/protobuf
     - platform/external/selinux
+    - platform/external/tremolo
     - platform/external/wpa_supplicant_8
     - platform/frameworks/av
     - platform/frameworks/base
