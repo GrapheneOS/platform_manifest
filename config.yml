@@ -222,6 +222,7 @@ forked_aosp_repos:
     - platform/packages/modules/NeuralNetworks
     - platform/packages/modules/Nfc
     - platform/packages/modules/Permission
+    - platform/packages/modules/Profiling
     - platform/packages/modules/RemoteKeyProvisioning
     - platform/packages/modules/StatsD
     - platform/packages/modules/Telephony
