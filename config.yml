@@ -219,6 +219,7 @@ forked_aosp_repos:
     - platform/packages/modules/HealthFitness
     - platform/packages/modules/IntentResolver
     - platform/packages/modules/NetworkStack
+    - platform/packages/modules/NeuralNetworks
     - platform/packages/modules/Nfc
     - platform/packages/modules/Permission
     - platform/packages/modules/RemoteKeyProvisioning
