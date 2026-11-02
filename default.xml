@@ -1073,7 +1073,7 @@
   <project path="trusty/user/app/sample" name="trusty/app/sample" groups="trusty,pdk"/>
   <project path="trusty/user/app/secretkeeper" name="trusty/app/secretkeeper" groups="trusty,pdk"/>
   <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty,pdk"/>
-  <project path="trusty/user/base" name="trusty/lib" groups="trusty,pdk"/>
+  <project path="trusty/user/base" name="trusty_lib" groups="trusty,pdk" remote="grapheneos" aosp-name="trusty/lib"/>
   <project path="trusty/user/desktop" name="trusty/user/desktop" groups="android-desktop,pdk,trusty"/>
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty,pdk">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk"/>
