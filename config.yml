@@ -192,6 +192,7 @@ forked_aosp_repos:
     - platform/hardware/st/nfc
     - platform/libcore
     - platform/packages/apps/Calendar
+    - platform/packages/apps/Car/Settings
     - platform/packages/apps/CellBroadcastReceiver
     - platform/packages/apps/Contacts
     - platform/packages/apps/ContactsPicker
