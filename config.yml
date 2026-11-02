@@ -23,9 +23,6 @@ additional_projects:
   - path: device/google/felix-kernels/6.1
     name: device_google_felix-kernels_6.1
     clone_depth: 1
-  - path: device/google/laguna-kernels/6.6
-    name: device_google_laguna-kernels_6.6
-    clone_depth: 1
   - path: device/google/laguna-kernels/6.18
     name: device_google_laguna-kernels_6.18
     clone_depth: 1
@@ -276,6 +273,7 @@ removed_aosp_repos:
   - device/google/atv
   - device/google/common/etm
   - device/google/contexthub
+  - device/google/laguna-kernels/6.6
   - device/google/trout
   - kernel/prebuilts/6.18/arm64
   - kernel/prebuilts/6.18/x86-64
