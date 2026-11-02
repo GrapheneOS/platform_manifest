@@ -165,6 +165,7 @@ forked_aosp_repos:
     - platform/cts
     - platform/development
     - platform/external/aac
+    - platform/external/avb
     - platform/external/cldr
     - platform/external/conscrypt
     - platform/external/exfatprogs

@@ -104,7 +104,7 @@
   <project path="external/Auditor" name="platform_external_Auditor" remote="grapheneos" clone-depth="1"/>
   <project path="external/auto" name="platform/external/auto" groups="pdk"/>
   <project path="external/automotive-design-compose-protos" name="platform/external/automotive-design-compose-protos" groups="pdk"/>
-  <project path="external/avb" name="platform/external/avb" groups="pdk"/>
+  <project path="external/avb" name="platform_external_avb" groups="pdk" remote="grapheneos" aosp-name="platform/external/avb"/>
   <project path="external/aws-crt-java" name="platform/external/aws-crt-java" groups="pdk,tradefed"/>
   <project path="external/aws-eventstream-java" name="platform/external/aws-eventstream-java" groups="pdk,tradefed"/>
   <project path="external/aws-sdk-java-v2" name="platform/external/aws-sdk-java-v2" groups="pdk,tradefed"/>
