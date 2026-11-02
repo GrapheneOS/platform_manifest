@@ -201,6 +201,7 @@ forked_aosp_repos:
     - platform/packages/apps/EmergencyInfo
     - platform/packages/apps/Gallery2
     - platform/packages/apps/Launcher3
+    - platform/packages/apps/ManagedProvisioning
     - platform/packages/apps/Settings
     - platform/packages/apps/SettingsIntelligence
     - platform/packages/apps/StorageManager
