@@ -355,7 +355,7 @@
   <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk"/>
   <project path="external/libnl" name="platform/external/libnl" groups="pdk"/>
   <project path="external/libogg" name="platform/external/libogg" groups="pdk"/>
-  <project path="external/libopenapv" name="platform/external/libopenapv" groups="pdk"/>
+  <project path="external/libopenapv" name="platform_external_libopenapv" groups="pdk" remote="grapheneos" aosp-name="platform/external/libopenapv"/>
   <project path="external/libopus" name="platform/external/libopus" groups="pdk"/>
   <project path="external/libpalmrejection" name="platform/external/libpalmrejection" groups="pdk"/>
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk"/>
