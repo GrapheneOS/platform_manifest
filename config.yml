@@ -179,6 +179,7 @@ forked_aosp_repos:
     - platform/external/libpng
     - platform/external/mesa3d
     - platform/external/protobuf
+    - platform/external/rust/android-crates-io
     - platform/external/selinux
     - platform/external/tremolo
     - platform/external/wpa_supplicant_8

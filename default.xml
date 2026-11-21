@@ -527,7 +527,7 @@
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk"/>
   <project path="external/roboto-mono" name="platform/external/roboto-mono" groups="pdk"/>
   <project path="external/rootdev" name="platform/external/rootdev" groups="pdk"/>
-  <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io" groups="pdk"/>
+  <project path="external/rust/android-crates-io" name="platform_external_rust_android-crates-io" groups="pdk" remote="grapheneos"/>
   <project path="external/rust/autocxx" name="platform/external/rust/autocxx" groups="pdk"/>
   <project path="external/rust/beto-rust" name="platform/external/rust/beto-rust" groups="pdk"/>
   <project path="external/rust/crabbyavif" name="platform/external/rust/crabbyavif" groups="pdk"/>
